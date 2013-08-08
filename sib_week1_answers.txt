@@ -1,3 +1,17 @@
+1. Route: a function used to bind a function to a specific URL.
+2. The only route we've specified is http://127.0.0.1:5000/
+3. method is "Hello Internet!""
+4. @app.route("/world")
+   def hello():
+    return "Hello, World"
+5. Won't be executed because the __name__ function is being imported from another module. '__main__' implies the module is being run standalone.
+
+6.1. Base case in the blastoff: if n <= 0:
+									print 'Blastoff!'
+6.2. An integer
+
 *** Cut and paste the for loop here ***
+{% for message in messages %}
 
 *** What is the for loop doing? ***
+outputs messages in HTML format?
